@@ -80,14 +80,20 @@ h2{
 
 h3{
 	font-size: 125%;
+	font-weight: bold;
 }
 
 h4{
-	font-size: 125%;
+	font-size: 100%;
+	font-weight: bold;
+	border: 1px solid black;
+	width: 15%;
+	text-align: center;
 }
 
 .container{
 	background-color: lightgray;
+	box-shadow: 10px 10px 5px 10px black;
 }
 
 .top-contact {
@@ -98,6 +104,7 @@ h4{
 		background-color: darkgray;
 		margin: 0 auto;
 		padding: 3.5%;
+		box-shadow: 10px 10px 5px 10px black;
 	}
 
 	.flex1 a{
@@ -140,11 +147,38 @@ h4{
 
 .bottom-content{
 	background-color: darkgray;
+	box-shadow: 10px 10px 5px 10px black;
 	.about-me{
 		display: flex;
 		flex-direction: column;
 		margin: 10%;
 		line-height: 3;
+		text-align: center;
+		margin-bottom: 5%;
 	}
 
+	.list{
+		display: flex;
+		flex-direction: column;
+		line-height: 2;
+		padding: 5%;
+	}
+
+	.seasons{
+		display: flex;
+		flex-direction: row;
+		justify-content: space-evenly;
+		text-align: center;
+		padding: 10%;
+		padding-left: 15%;
+		
+	}
 }
+
+.seasons h3{
+	border: 1px solid black;
+	width: 100%;
+	text-align: center;
+}
+
+
